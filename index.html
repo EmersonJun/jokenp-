@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>ppt</title>
+</head>
+<body>
+    <div class="container">
+        <h1>jokenpô</h1>
+
+        <div class="buttons">
+        <button id="pedra" onclick="playhuman('pedra')">&#x270A;</button>
+        <button id="papel" onclick="playhuman('papel')">&#x270B;</button>
+        <button id="tesoura" onclick="playhuman('tesoura')">&#x270C;</button>
+
+        <p class="result"></p>
+    </div>
+    <p class="your-score">sua pontuação <span id="human-score">0</span></p>
+    <p class="machine-score">pontuação alexa <span id="machine-score">0</span></p>
+    </div>
+
+</body>
+<script src="script.js"></script>
+</html>

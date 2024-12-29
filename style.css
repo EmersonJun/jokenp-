@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background:linear-gradient(#13293d, #247BA0);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container{
+    padding: 20px;
+    background-color: #ffff;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+button{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 50px;
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+    transition: opacity 0.5s ease-in-out;
+}
+
+button:hover{
+    opacity: 0.6;
+}
+
+#pedra{
+    background-color: #006494;
+}
+#papel{
+    background-color: #247BA0;
+}
+#tesoura{
+    background-color: #479bbe;
+}
+
+p{
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-weight: 100%;
+    font-size: large;
+}
+
+.result{
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-weight: 100%;
+    font-size: large;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.your-score span{
+    color:#006494
+}
+
+.machine-score span{
+    color:#479bbe
+}
